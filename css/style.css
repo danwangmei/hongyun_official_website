@@ -34,7 +34,7 @@ h1,h2,h3{
 	font-size: 18px;
 	color: #101117;
 	line-height: 25px;
-	margin-left: 70px;
+	/* margin-left: 70px; */
 }
 
 .header-logo{
@@ -42,17 +42,19 @@ h1,h2,h3{
 }
 /* navbar */
 #navbar{
-	width: 1620px;
+	/* width: 100%;
 	position: absolute;
 	top: 0;
 	right: 0;
-	left: 0;
+	left: 0; */
 	padding-top: 28px;
 	color: #fff;
 	height: 100px;
 	display: flex;
 	flex-direction: row;
-	margin-left: 151px;
+	/* margin-left: 151px; */
+	width: 90%;
+    margin: 0 auto;
 }
 #navbar a{
 	color: #B5B6B8;
@@ -83,7 +85,7 @@ h1,h2,h3{
 
 /* main-content */ 
 .main-content{
-	width: 1620px;
+	width: 90%;
 	height: auto;
 	margin: 0 auto;
 	background: #fff;
@@ -112,7 +114,7 @@ h1,h2,h3{
 }
 /* products-lists */
 .products-lists{
-	width: 1620px;
+	width: 100%;
 	height: 550px;
 	background: #1A3C7B;
 	margin-top: 41px;
@@ -126,22 +128,25 @@ h1,h2,h3{
 	justify-content: space-between;
 }
 .products>div{
-	width: 299px;
+	width: 20%;
 	height: 300px;
 	background: #FFF;
 }
 
 .products-names p{
 	font-family: PingFangSC-Semibold;
-	font-size: 28px;
+	font-size: 20px;
 	color: #FFFFFF;
 	line-height: 40px;
+}
+.products-introduce{
+	height: 70px;
 }
 
 .products-introduce p{
 	opacity: 0.5;
 	font-family: PingFangSC-Regular;
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
 	line-height: 22px;
 }
@@ -155,21 +160,20 @@ h1,h2,h3{
 	font-family: PingFangSC-Regular;
 	font-size: 16px;
 	color: #1A3C7B;
-	line-height: 22px;
+	line-height: 28px;
 	letter-spacing: 0;
 	width: 64px;
-	height: 22px;
+	height: 28px;
 	margin: 44px 0px 5px 8px;
 }
 
 /* topological-graph */
 
 .topological-graph{
-	width: 545px;
+	width: 100%;
 	height: 67px;
 	margin-top: 98px; 
-	margin-left: 537px;
-	position: absolute;
+	text-align: center;
 }
 
 .topological-graph>span{
@@ -181,19 +185,19 @@ h1,h2,h3{
 .topological-graph-series{
 	display: flex;
 	flex-direction:row;
-	width: 1620px;
-	height: 1065px;
+	width: 100%;
+	/* height: 1065px; */
 }
 
 .series-left,.series-right{
-	width: 810px;
-	height: 1065px;
+	width: 50%;
+	/* height: 1065px; */
 }
 
 .meta-series-name{
 	width: 109.6px;
 	height: 39.4px;
-	margin: 271px 404.4px 0px 296px;
+	margin: 0 auto;
 	background: #1A3C7B;
 }
 
@@ -207,7 +211,7 @@ h1,h2,h3{
 .product-series-name{
 	width: 110px;
 	height: 40px;
-	margin: 271px 359px 0px 341px;
+	margin: 0 auto;
 	background: #1A3C7B;
 }
 
@@ -228,10 +232,11 @@ h1,h2,h3{
 }
 
 .suit{
-	width: 318px;
+	width: 100%;
 	height: 73px;
-	margin-top: 150px;
-	margin-left: 671px;
+	text-align: center;
+	/* margin-top: 150px; */
+	/* margin-left: 671px; */
 }
 
 .suit>span{
@@ -244,10 +249,9 @@ h1,h2,h3{
 }
 
 .range{
-	width: 515px;
+	width: 100%;
 	height: 33px;
-	margin-left: 572.4px;
-	margin-top: 1px;
+	text-align: center;
 }
 
 .range>span{
@@ -260,7 +264,7 @@ h1,h2,h3{
 /* range-picture */
 
 .range-picture{
-	width: 1620.3px;
+	width: 100%;
 	height: 755.1px;
 	display: flex;
 	flex-direction:row;
@@ -268,27 +272,27 @@ h1,h2,h3{
 }
 
 .office-building-villa-rendering-visualization{
-	width: 323.8px;
+	width: 20%;
 	background:url('../images/office_building-villa-rendering-visualization.png') no-repeat center center/cover;
 }
 
 .hotel{
-	width: 324.8px;
+	width: 20%;
 	background:#1A3C7B;;
 }
 
 .hotel-guest-room{
-	width: 323.8px;
+	width: 20%;
 	background:url('../images/hotel_guest_room.png') no-repeat center center/cover;
 }
 
 .asia-assistance-carer-caretaker{
-	width: 322.9px;
+	width: 20%;
 	background:url('../images/asia_assistance_carer_caretaker.png') no-repeat center center/cover;
 }
 
 .buildings-houses-apartments{
-	width: 325px;
+	width: 20%;
 	background:url('../images/buildings_houses_apartments.png') no-repeat center center/cover;
 }
 
@@ -343,32 +347,31 @@ h1,h2,h3{
 /* advantage */
 
 .advantage{
-	width: 1620px;
-	height: 573px;
+	width: 100%;
+	height: 400%;
 	margin-top: 61px;
 	background: #1A3C7B;
 }
 
 .advange-title{
-	width: 192px;
-	height: 67px;
-	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 68px;
+	/* position: relative;
 	top: 76px;
-	left: 714px;
+	left: 714px; */
 }
 
-.advange-title>span{
+.advange-title>h1{
 	font-family: PingFangSC-Semibold;
-	font-size: 48px;
 	color: #FFFFFF;
-	line-height: 36px;
+	line-height: 68px;
 	letter-spacing: 0;
 }
 
 .specific-advantages{
-	width: 1620px;
+	width: 100%;
 	height: 573px;
-	margin-top: 143px;
 	display: flex;
 	flex-direction:row;
 }
@@ -378,16 +381,9 @@ h1,h2,h3{
 	height: 159px;
 }
 
-.specific-advantages-item1-name,.specific-advantages-item3-name{
-	width: 96px;
+.specific-advantages-item1-name,.specific-advantages-item2-name,.specific-advantages-item3-name{
 	height: 33px;
-	margin-left: 51px;
-}
-
-.specific-advantages-item2-name{
-	width: 96px;
-	height: 33px;
-	margin-left: 60px;
+	text-align: center;
 }
 
 .specific-advantages-item1-name>span,.specific-advantages-item2-name>span,.specific-advantages-item3-name>span{
@@ -399,41 +395,36 @@ h1,h2,h3{
 }
 
 .specific-advantages-item1-picture{
-	margin-left: 20px;
+	text-align: center;
 }
 
 .specific-advantages-item2-picture{
-	margin-left: 28.5px;
-}
+	text-align: center;}
 
 .specific-advantages-item3-picture{
-	margin-left: 27px;
-}
+	text-align: center;}
 
 .specific-advantages-item1{
-	margin-left: 114px;
+	width: 33%;
 }
 
 .specific-advantages-item2{
-	margin-left: 384px;
+	width: 33%;
 }
 
 .specific-advantages-item3{
-	margin-left: 373px;
+	width: 33%;
 }
 
 .specific-advantages-item1-info{
-	width: 198px;
 	height: 67px;
 }
 
 .specific-advantages-item2-info{
-	width: 219px;
 	height: 67px;
 }
 
 .specific-advantages-item3-info{
-	width: 214px;
 	height: 101px;
 }
 
@@ -447,10 +438,11 @@ h1,h2,h3{
 }
 
 .partner{
-	width: 203px;
+	width: 100%;
 	height: 78px;
-	margin-top: 116.9px;
-	margin-left: 708.5px;
+	margin-top: 100px;
+	text-align: center;
+	/* margin-left: 708.5px; */
 }
 
 .partner>span{
@@ -462,27 +454,25 @@ h1,h2,h3{
 }
 
 .partner-picture{
-	margin-top: 90px;
 }
 
 /* main-foot */
 
 #main-footer{
-	min-width: 1200px;
+	width: 90%;
+	margin: 100px auto 0 auto;
 	height: 380px;
 	background: #24262B;
-	margin-top: 72px;
 	display: flex;
 	flex-direction:row;
 }
 
 .product-center{
-	margin-left: 153px;
-	width: 467px;
+	text-align: center;
+	width: 30%;
 }
 
 .product-center-name{
-	width: 96px;
 	margin-top: 78px;
 	height: 33px;
 }
@@ -527,12 +517,12 @@ h1,h2,h3{
 }
 
 .logo{
-	margin-top: 93px;
-	margin-left: 236px;
+	margin-top: 78px;
 }
 
 .hotline{
-  width: 678px;
+  width: 40%;
+  text-align: center;
 }
 
 .hotline-border{
@@ -543,10 +533,8 @@ h1,h2,h3{
   height: 68px;
 }
 .hotline-name{
-	width: 144px;
   height: 33px;
-  margin-left: 267px;
-  margin-top: 18px;
+  margin: 20px auto 0 auto;
 }
 
 .hotline-name>span{
@@ -559,8 +547,6 @@ h1,h2,h3{
 }
 
 .hotline-telephone{
-	margin-left: 181px;
-	width: 316px;
 	height: 56px;
 }
 
@@ -574,10 +560,8 @@ h1,h2,h3{
 }
 
 .company-information{
-  width: 395px;
   height: 37px;
-  margin-top: 51px;
-  margin-left: 144px;
+  margin-top: 50px;
 }
 
 .company-information>p{
@@ -590,12 +574,12 @@ h1,h2,h3{
 }
 
 .contact-us{
-  margin-left: 336px;
-  margin-top: 78px;
+	width: 30%;
+ 	text-align: center;
+  	margin-top: 78px;
 }
 
 .contact-us-name{
-  width: 96px;
   height: 33px;
 }
 
