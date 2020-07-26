@@ -1,45 +1,29 @@
 /* main-content */ 
-.main-content{
-	width: 1620px;
+.banner{
+	width: 90%;
 	height: auto;
 	margin: 0 auto;
-}
-
-.banner-product{
-	width: 1620px;
-	height: 61px;
-	background: #1A3C7B;
 	display: flex;
 	flex-direction: row;
 }
 
-.banner-product-item1{
-	width: 85px;
-	margin-left: 797px;
-	margin-top: 22px;
+#navbar{
+	height: 70px;
 }
 
-.banner-product-item2{
-	width: 85px;
-	margin-left: 94.8px;
-	margin-top: 22px;
+.banner>div{
+	width: 50%;
+	background: #1A3C7B;
 }
 
-.banner-product-item3{
-	width: 48px;
-	margin-left: 94.7px;
-	margin-top: 22px;
+.banner-product{
+	height: 61px;
+	display: flex;
+	flex-direction: row;
 }
 
-.banner-product-item4{
-	width: 32px;
-	margin-left: 94.8px;
-	margin-top: 22px;
-}
-
-.banner-product-item5{
-	width: 32px;
-	margin-left: 94.8px;
+.banner-product>div{
+	width: 20%;
 	margin-top: 22px;
 }
 
@@ -59,29 +43,31 @@
 }
 
 .banner-product-picture1{
-	width: 1620px;
+	width: 90%;
 	height: 791px;
-	margin-left: 151px;
+	margin:0 auto;
 	background: #F1F1F1;
 }
 
 .banner-product-picture2{
-	width: 1620px;
+	width: 90%;
 	height: 994px;
 	background:url('../images/product_center_banner.png') no-repeat center center/cover;
-	margin-left: 151px;
+	margin:0 auto;
 }
 
 .banner-product-picture2-item1{
 	position: relative;
-	top: 43px;
-	margin-left: 394px;
+	top: 120px;
+	margin-left: 24%;
 }
 
 .banner-product-picture3{
 	height: 377px;
-	margin-left: 163px;
-	margin-top: 19px;
+	position: relative;
+	top: 19px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .banner-product-picture3-info{
@@ -98,17 +84,18 @@
 }
 
 .banner-product-picture4{
-	width: 1620px;
+	width: 90%;
 	height: 940px;
 	background:url('../images/img_main_function.png') no-repeat center center/cover;
-	margin-left: 151px;
+	margin:0 auto;
 	margin-top: 73px;
 }
 
 .banner-product-picture4-item1{
+	width: 192px;
 	position: relative;
 	top: 132px;
-	margin-left: 715px;
+	margin: 0 auto;
 }
 
 .banner-product-picture4-item1>p{
@@ -121,8 +108,9 @@
 .banner-product-picture4-item2{
 	width: 880px;
 	height: 66px;
-	margin-top: 229px;
-	margin-left: 371.5px;
+	position: relative;
+	top: 229px;
+	margin:0 auto;
 }
 
 .banner-product-picture4-item2>p{
@@ -134,10 +122,10 @@
 }
 
 .banner-product-picture5{
-	width: 1620px;
+	width: 90%;
 	height: 942px;
 	background:url('../images/img_dial.png') no-repeat center center/cover;
-	margin-left: 151px;
+	margin:0 auto;
 }
 
 .banner-product-picture5-item1{
@@ -171,24 +159,25 @@
 }
 
 .banner-product-picture6{
-	width: 1620px;
+	width: 90%;
 	height: 895px;
 	background:url('../images/img_sectional_view.png') no-repeat center center/cover;
-	margin-left: 151px;
+	margin:0 auto;
 }
 
 .banner-product-picture7{
-  width: 1622px;
-  margin-left: 150px;
+  width: 90%;
+  margin:0 auto;
   height: 960px;
   margin-top: 142px;
 }
 
 .banner-product-picture7-word{
+	width: 425px;
   position: relative;
   top: 68px;
   height: 67px;
-  margin-left: 620px;
+  margin:0 auto;
 }
 
 .banner-product-picture7-word>p{
@@ -198,10 +187,11 @@
 }
 
 .banner-product-picture7-content{
-  width: 1105px;
-  height: 72px;
-  margin-top: 85px;
-  margin-left: 280px;
+	width: 1105px;
+	height: 72px;
+	position: relative;
+	top: 85px;
+	margin: 0 auto;
 }
 
 .banner-product-picture7-content>p{
@@ -213,7 +203,7 @@
 }
 
 .banner-product-picture7-item1{
-  width: 1620px;
+  width: 90%;
   height: 800px;
   background:url('../images/img_voice_module.png') no-repeat center center/cover;
   display: flex;
@@ -223,19 +213,19 @@
 
 .banner-product-picture7-item1-left{
   margin-top: 285px;
-  margin-left: 430px;
+  margin-left: 24%;
 }
 
 .banner-product-picture7-item1-right{
   margin-top: 315px;
-  margin-left: 135px;
+  margin-left: 9%;
 }
 
 .banner-product-picture8{
-  width: 1620px;
+  width: 90%;
   height: 1080px;
   background:url('../images/img_app_module.png') no-repeat center center/cover;
-  margin-left: 151px;
+  margin:0 auto;
 }
 
 .banner-product-picture8-item1{
@@ -243,7 +233,7 @@
   top: 82px;
   height: 67px;
   width: 493px;
-  margin-left: 561px;
+  margin:0 auto;
 }
 
 .banner-product-picture8-item1>p{
@@ -267,9 +257,9 @@
 }
 
 .banner-product-parameter{
-	width: 1620px;
+	width: 90%;
 	height: 67px;
-  margin-left: 151px;
+  margin:0 auto;
   margin-top: 74px;
 	display: flex;
 	flex-direction: row;
@@ -283,7 +273,9 @@
 
 .banner-product-parameter-names-2{
 	width: 196px;
-	margin-left: 93px;
+	margin:0 auto;
+	margin-top: -45px;
+
 }
 
 .banner-product-parameter-names-2>p{
@@ -294,15 +286,15 @@
 }
 
 .banner-product-parameter-names-3{
-	width: 620px;
+	width:33%;
   height: 34px;
   border-bottom: 2px solid #979797;
 	margin-left: 91px;
 }
 
 .banner-product-parameter-content{
+	margin:0 auto;
 	margin-top: 69px;
-	margin-left: 151px;
 }
 
 

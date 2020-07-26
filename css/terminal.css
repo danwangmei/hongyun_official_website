@@ -1,64 +1,48 @@
 /* main-content */ 
 .main-content{
-	width: 1620px;
+	width: 90%;
 	height: auto;
-	margin-left: 151px;
+	margin:0 auto;
 	background: #fff;
 }
 
 .banner-product{
-	/* margin-top: 100px; */
 	width: 100%;
 	height:791px;
 	background:url('../images/banner_product_center.png') no-repeat center center/cover;
 }
 
 .product-list{
-	width: 1620px;
+	width: 90%;
 	height: 160px;
 	display: flex;
 	flex-direction: row;
+	margin: 0 auto;
 }
 
+.product-list>div{
+	width: 25%;
+	text-align: center;
+}
 .product-list-terminal-item1{
-	width: 255px;
 	height: 160px;
-	margin-left: 273px;
 }
 
 .product-list-terminal-item2{
-	width: 286px;
 	height: 160px;
 }
 
 .product-list-terminal-item3{
-	width: 267px;
 	height: 160px;
 }
 
 .product-list-terminal-item4{
-	width: 268px;
 	height: 160px;
 }
 
 .product-list-terminal-item1-words,.product-list-terminal-item2-words,.product-list-terminal-item3-words,.product-list-terminal-item4-words{
+	margin: 0 auto;
 	margin-top: 69px;
-}
-
-.product-list-terminal-item1-words{
-	margin-left: 109px;
-}
-
-.product-list-terminal-item2-words{
-	margin-left: 122px;
-}
-
-.product-list-terminal-item3-words{
-	margin-left: 231px;
-}
-
-.product-list-terminal-item4-words{
-	margin-left: 232px;
 }
 
 .product-list-terminal-item1-words>p,.product-list-terminal-item2-words>p,.product-list-terminal-item3-words>p,.product-list-terminal-item4-words>p{
@@ -74,12 +58,12 @@
 	border-radius: 50%;
 	border: 4px solid #1A3C7B;
 	margin-top: 8px;
-	margin-left: 119px;
+	margin: 0 auto;
 }
 
 .product-meta-series{
 	margin-top: 60px;
-	width: 1620px;
+	width: 90%;
 	height: 557px;
 }
 
@@ -89,11 +73,12 @@
 }
 
 .product-meta-series-left{
-	margin-left: 60px;
+	width: 50%;
+	margin-left: 4%;
 }
 
 .product-meta-series-right{
-	margin-left: 167px;
+	width: 50%;
 	margin-top: 131px;
 }
 
@@ -138,7 +123,7 @@
 }
 
 .product-series{
-	width: 1620px;
+	width: 90%;
 	height: 557px;
 	margin-top: 40px;
 }
@@ -149,8 +134,8 @@
 }
 
 .product-series-left{
+	width: 50%;
 	margin-top: 139px;
-	margin-left: 144px;
 }
 
 .product-series-left-content{
@@ -165,8 +150,9 @@
 }
 
 .product-series-right{
+	width: 50%;
 	margin-top: 126px;
-	margin-left: 137px;
+	margin-left: 20%;
 }
 
 .product-series-page-number{
@@ -174,6 +160,7 @@
 	height: 33px;
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 90px;
 }
 
 .product-series-page-number-item1,.product-series-page-number-item4{

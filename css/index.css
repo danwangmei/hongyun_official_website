@@ -1,81 +1,3 @@
-/* reset */
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-/* main styling */
-
-html,body{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	line-height: 1.7em;
-}
-
-a{
-	color: #333;
-	text-decoration: none;
-}
-h1,h2,h3{
-	padding-bottom: 20px;
-}
-
-/* utility classes */
-.container{
-	width: 1008px;
-	float: left;
-	margin-left: 405px;
-}
-
-
-.container ul li a {
-	opacity: 0.5;
-	font-family: PingFangSC-Regular;
-	font-size: 18px;
-	color: #101117;
-	line-height: 25px;
-}
-
-.header-logo{
-	float: left;
-}
-/* navbar */
-#navbar{
-	padding-top: 28px;
-	color: #fff;
-	height: 100px;
-	display: flex;
-	flex-direction: row;
-	width: 90%;
-	margin: 0 auto;
-}
-#navbar a{
-	color: #B5B6B8;
-}
-#navbar h1{
-	float: left;
-	padding-top: 20px;
-}
-#navbar ul{
-	float: right;
-	list-style: none;
-}
-#navbar ul li{
-	float: left;
-}
-
-#navbar ul li a{
-	display: block;
-	padding: 20px;
-	text-align: center;
-	font-size: 18px;
-}
-
-#navbar ul li a:hover{
-	background: #fff;
-	color: #151925;
-}
-
 /* main-content */ 
 .main-content{
 	width: 90%;
@@ -83,28 +5,39 @@ h1,h2,h3{
 	margin: 0 auto;
 	background: #fff;
 }
+
 .banner{
 	background:url('../images/banner_home.png') no-repeat center center/cover;
 	height:790px;
 }
-.banner h1{
+
+.banner-names{
 	text-align: center;
-	padding-top:119px;
+	position: relative;
+	top: 119px;
+}
+
+.banner-names>span{
 	font-family: PingFangSC-Semibold;
 	font-size: 72px;
 	color: #FFFFFF;
 	letter-spacing: 0;
 	line-height: 100px;
 }
-.banner p{
-	text-align: left;
+
+.banner-content{
+	width: 1002px;
+	margin: 130px auto 0 auto;
+}
+
+.banner-content>p{
 	font-family: PingFangSC-Regular;
 	font-size: 24px;
 	color: #FFFFFF;
 	letter-spacing: 0;
 	line-height: 33px;
-	margin: 0 auto;
 }
+
 /* products-lists */
 .products-lists{
 	width: 100%;
@@ -120,8 +53,9 @@ h1,h2,h3{
 	flex-direction:row;
 	justify-content: space-between;
 }
+
 .products>div{
-	width: 20%;
+	width: 19%;
 	height: 300px;
 	background: #FFF;
 }
@@ -132,6 +66,7 @@ h1,h2,h3{
 	color: #FFFFFF;
 	line-height: 40px;
 }
+
 .products-introduce{
 	height: 70px;
 }
@@ -149,6 +84,7 @@ h1,h2,h3{
 	height: 32px;
 	background: #fff;
 }
+
 .ic-next>span{
 	font-family: PingFangSC-Regular;
 	font-size: 16px;
@@ -179,6 +115,7 @@ h1,h2,h3{
 	display: flex;
 	flex-direction:row;
 	width: 100%;
+	margin-top: 106px;
 }
 
 .series-left,.series-right{
@@ -226,6 +163,7 @@ h1,h2,h3{
 	width: 100%;
 	height: 73px;
 	text-align: center;
+	margin-top: 37px;
 }
 
 .suit>span{
@@ -337,7 +275,7 @@ h1,h2,h3{
 
 .advantage{
 	width: 100%;
-	height: 400%;
+	height: 573px;
 	margin-top: 61px;
 	background: #1A3C7B;
 }
@@ -346,6 +284,8 @@ h1,h2,h3{
 	text-align: center;
 	width: 100%;
 	height: 68px;
+	position: relative;
+	top: 76px;
 }
 
 .advange-title>h1{
@@ -360,6 +300,7 @@ h1,h2,h3{
 	height: 573px;
 	display: flex;
 	flex-direction:row;
+	margin-top: 140px;
 }
 
 .specific-advantages-item1>img,.specific-advantages-item2>img,.specific-advantages-item3>img{
@@ -404,14 +345,20 @@ h1,h2,h3{
 
 .specific-advantages-item1-info{
 	height: 67px;
+	width: 198px;
+	margin: 0 auto;
 }
 
 .specific-advantages-item2-info{
 	height: 67px;
+	width: 219px;
+	margin: 0 auto;
 }
 
 .specific-advantages-item3-info{
 	height: 101px;
+	width: 214px;
+	margin: 0 auto;
 }
 
 .specific-advantages-item1-info>span,.specific-advantages-item2-info>span,.specific-advantages-item3-info>span{
@@ -426,7 +373,7 @@ h1,h2,h3{
 .partner{
 	width: 100%;
 	height: 78px;
-	margin-top: 100px;
+	margin-top: 116.1px;
 	text-align: center;
 }
 
@@ -438,151 +385,6 @@ h1,h2,h3{
 	letter-spacing: 0;
 }
 
-/* main-foot */
-
-#main-footer{
-	width: 90%;
-	margin: 100px auto 0 auto;
-	height: 380px;
-	background: #24262B;
-	display: flex;
-	flex-direction:row;
-}
-
-.product-center{
-	text-align: center;
-	width: 30%;
-}
-
-.product-center-name{
-	margin-top: 78px;
-	height: 33px;
-}
-
-.product-center-name>span{
-	font-family: PingFangSC-Regular;
-	font-size: 24px;
-	color: #919191;
-	text-align: center;
-	line-height: 33px;
-	letter-spacing: 0;
-}
-
-.product-center-list1{
-	margin-top: 10px;
-}
-
-.product-center-list2{
-	margin-top: 6px;
-}
-
-.product-center-list3{
-	margin-top: 5.5px;
-}
-
-.product-center-list4{
-	margin-top: 6.8px;
-}
-
-.product-center-list5{
-	margin-top: 6.7px;
-}
-
-
-.product-center-list1>span,.product-center-list2>span,.product-center-list3>span,.product-center-list4>span,.product-center-list5>span{
-	font-family: PingFangSC-Regular;
-	font-size: 12px;
-	color: #919191;
-	text-align: center;
-	line-height: 17px;
-	letter-spacing: 0;
-}
-
-.logo{
-	margin-top: 78px;
-}
-
-.hotline{
-  width: 40%;
-  text-align: center;
-}
-
-.hotline-border{
-  opacity: 0.39;
-  border: 1px solid #979797;
-  border-top: none;
-  border-bottom: none;
-  height: 68px;
-}
-.hotline-name{
-  height: 33px;
-  margin: 20px auto 0 auto;
-}
-
-.hotline-name>span{
-	font-family: PingFangSC-Regular;
-	font-size: 24px;
-	color: #919191;
-	text-align: center;
-	line-height: 33px;
-	letter-spacing: 0;
-}
-
-.hotline-telephone{
-	height: 56px;
-}
-
-.hotline-telephone>span{
-	font-family: PingFangSC-Regular;
-	font-size: 40px;
-	color: #919191;
-	line-height: 56px;
-	letter-spacing: 0;
-	text-align: center;
-}
-
-.company-information{
-  height: 37px;
-  margin-top: 50px;
-}
-
-.company-information>p{
-	font-family: PingFangSC-Regular;
-	font-size: 12px;
-	color: #919191;
-  text-align: center;
-  line-height: 17px;
-  letter-spacing: 0;
-}
-
-.contact-us{
-	width: 30%;
- 	text-align: center;
-	margin-top: 78px;
-}
-
-.contact-us-name{
-  height: 33px;
-}
-
-.contact-us-name>span{
-  font-family: PingFangSC-Regular;
-  font-size: 24px;
-  color: #919191;
-	line-height: 33px;
-	letter-spacing: 0;
-  text-align: center;
-}
-
-.contact-us-name-item1,.contact-us-name-item2,.contact-us-name-item3,.contact-us-name-item4{
-  margin-top: 16px;
-}
-
-.contact-us-name-item1>span,.contact-us-name-item2>span,.contact-us-name-item3>span,.contact-us-name-item4>span{
-  font-family: PingFangSC-Regular;
-  font-size: 12px;
-  color: #919191;
-	line-height: 17px;
-	letter-spacing: 0;
-  text-align: center;
+.partner-picture{
+	margin-bottom: 72px;
 }
