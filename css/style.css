@@ -1,0 +1,622 @@
+/* reset */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* main styling */
+
+html,body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+h1,h2,h3{
+	padding-bottom: 20px;
+}
+
+/* utility classes */
+.container{
+	width: 1008px;
+	float: left;
+	margin-left: 405px;
+}
+
+
+.container ul li a {
+	opacity: 0.5;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #101117;
+	line-height: 25px;
+	margin-left: 70px;
+}
+
+.header-logo{
+	float: left;
+}
+/* navbar */
+#navbar{
+	width: 1620px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding-top: 28px;
+	color: #fff;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 151px;
+}
+#navbar a{
+	color: #B5B6B8;
+}
+#navbar h1{
+	float: left;
+	padding-top: 20px;
+}
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+#navbar ul li{
+	float: left;
+}
+
+#navbar ul li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#navbar ul li a:hover{
+	background: #fff;
+	color: #151925;
+}
+
+/* main-content */ 
+.main-content{
+	width: 1620px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+}
+.banner{
+	background:url('../images/banner_home.png') no-repeat center center/cover;
+	height:790px;
+}
+.banner h1{
+	text-align: center;
+	padding-top:119px;
+	font-family: PingFangSC-Semibold;
+	font-size: 72px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 100px;
+}
+.banner p{
+	text-align: left;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 33px;
+	margin: 0 auto;
+}
+/* products-lists */
+.products-lists{
+	width: 1620px;
+	height: 550px;
+	background: #1A3C7B;
+	margin-top: 41px;
+}
+
+.products{
+	background: #1A3C7B;
+	padding: 20px 25px 15px 25px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.products>div{
+	width: 299px;
+	height: 300px;
+	background: #FFF;
+}
+
+.products-names p{
+	font-family: PingFangSC-Semibold;
+	font-size: 28px;
+	color: #FFFFFF;
+	line-height: 40px;
+}
+
+.products-introduce p{
+	opacity: 0.5;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 22px;
+}
+
+.ic-next{
+	width: 116px;
+	height: 32px;
+	background: #fff;
+}
+.ic-next>span{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #1A3C7B;
+	line-height: 22px;
+	letter-spacing: 0;
+	width: 64px;
+	height: 22px;
+	margin: 44px 0px 5px 8px;
+}
+
+/* topological-graph */
+
+.topological-graph{
+	width: 545px;
+	height: 67px;
+	margin-top: 98px; 
+	margin-left: 537px;
+	position: absolute;
+}
+
+.topological-graph>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 48px;
+	color: #1A3C7B;
+}
+
+.topological-graph-series{
+	display: flex;
+	flex-direction:row;
+	width: 1620px;
+	height: 1065px;
+}
+
+.series-left,.series-right{
+	width: 810px;
+	height: 1065px;
+}
+
+.meta-series-name{
+	width: 109.6px;
+	height: 39.4px;
+	margin: 271px 404.4px 0px 296px;
+	background: #1A3C7B;
+}
+
+.meta-series-name>p{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	padding: 3.4px 15.6px 3.4px 15px;
+}
+
+.product-series-name{
+	width: 110px;
+	height: 40px;
+	margin: 271px 359px 0px 341px;
+	background: #1A3C7B;
+}
+
+.product-series-name>p{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	padding: 2px 16px 2px 17px;
+}
+
+.meta-series-picture{
+	margin-top: 27.3px;
+}
+
+.product-series-picture{
+	margin-top: 27.3px;
+	margin-left: 104px;
+}
+
+.suit{
+	width: 318px;
+	height: 73px;
+	margin-top: 150px;
+	margin-left: 671px;
+}
+
+.suit>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 48px;
+	color: #1A3C7B;
+	text-align: center;
+	line-height: 67px;
+	letter-spacing: 0;
+}
+
+.range{
+	width: 515px;
+	height: 33px;
+	margin-left: 572.4px;
+	margin-top: 1px;
+}
+
+.range>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+}
+
+/* range-picture */
+
+.range-picture{
+	width: 1620.3px;
+	height: 755.1px;
+	display: flex;
+	flex-direction:row;
+	margin-top: 39.9px;
+}
+
+.office-building-villa-rendering-visualization{
+	width: 323.8px;
+	background:url('../images/office_building-villa-rendering-visualization.png') no-repeat center center/cover;
+}
+
+.hotel{
+	width: 324.8px;
+	background:#1A3C7B;;
+}
+
+.hotel-guest-room{
+	width: 323.8px;
+	background:url('../images/hotel_guest_room.png') no-repeat center center/cover;
+}
+
+.asia-assistance-carer-caretaker{
+	width: 322.9px;
+	background:url('../images/asia_assistance_carer_caretaker.png') no-repeat center center/cover;
+}
+
+.buildings-houses-apartments{
+	width: 325px;
+	background:url('../images/buildings_houses_apartments.png') no-repeat center center/cover;
+}
+
+.office-building-villa-rendering-visualization>div{
+	margin: 347px 119.9px 38.2px 121px;
+}
+
+.hotel>div{
+	margin: 339.5px 124.8px 26.7px 124.8px;
+}
+
+.hotel-guest-room>div{
+	margin: 339.8px 123.5px 37.1px 125.7px;
+}
+
+.asia-assistance-carer-caretaker>div{
+	margin: 339.7px 127.8px 27.1px 114.3px;
+}
+
+.buildings-houses-apartments>div{
+	margin: 341.4px 121.2px 27.7px 123.1px;
+}
+
+.office-building-villa-rendering-visualization>span{
+	margin-left: 130px;
+}
+
+.hotel>span{
+	margin-left: 136.2px;
+}
+
+.hotel-guest-room>span{
+	margin-left: 139.4px;
+}
+
+.asia-assistance-carer-caretaker>span{
+	margin-left: 124.6px;
+}
+
+.buildings-houses-apartments>span{
+	margin-left: 115px;
+}
+
+.range-picture span{
+	opacity: 0.6;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* advantage */
+
+.advantage{
+	width: 1620px;
+	height: 573px;
+	margin-top: 61px;
+	background: #1A3C7B;
+}
+
+.advange-title{
+	width: 192px;
+	height: 67px;
+	position: relative;
+	top: 76px;
+	left: 714px;
+}
+
+.advange-title>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 48px;
+	color: #FFFFFF;
+	line-height: 36px;
+	letter-spacing: 0;
+}
+
+.specific-advantages{
+	width: 1620px;
+	height: 573px;
+	margin-top: 143px;
+	display: flex;
+	flex-direction:row;
+}
+
+.specific-advantages-item1>img,.specific-advantages-item2>img,.specific-advantages-item3>img{
+	width: 159px;
+	height: 159px;
+}
+
+.specific-advantages-item1-name,.specific-advantages-item3-name{
+	width: 96px;
+	height: 33px;
+	margin-left: 51px;
+}
+
+.specific-advantages-item2-name{
+	width: 96px;
+	height: 33px;
+	margin-left: 60px;
+}
+
+.specific-advantages-item1-name>span,.specific-advantages-item2-name>span,.specific-advantages-item3-name>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 33px;
+	letter-spacing: 0;
+}
+
+.specific-advantages-item1-picture{
+	margin-left: 20px;
+}
+
+.specific-advantages-item2-picture{
+	margin-left: 28.5px;
+}
+
+.specific-advantages-item3-picture{
+	margin-left: 27px;
+}
+
+.specific-advantages-item1{
+	margin-left: 114px;
+}
+
+.specific-advantages-item2{
+	margin-left: 384px;
+}
+
+.specific-advantages-item3{
+	margin-left: 373px;
+}
+
+.specific-advantages-item1-info{
+	width: 198px;
+	height: 67px;
+}
+
+.specific-advantages-item2-info{
+	width: 219px;
+	height: 67px;
+}
+
+.specific-advantages-item3-info{
+	width: 214px;
+	height: 101px;
+}
+
+.specific-advantages-item1-info>span,.specific-advantages-item2-info>span,.specific-advantages-item3-info>span{
+	opacity: 0.5;
+	font-family: PingFangSC-Regular;
+	font-size: 23px;
+	color: #FFFFFF;
+	line-height: 42px;
+	letter-spacing: 0;
+}
+
+.partner{
+	width: 203px;
+	height: 78px;
+	margin-top: 116.9px;
+	margin-left: 708.5px;
+}
+
+.partner>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 48px;
+	color: #1A3C7B;
+	line-height: 67px;
+	letter-spacing: 0;
+}
+
+.partner-picture{
+	margin-top: 90px;
+}
+
+/* main-foot */
+
+#main-footer{
+	min-width: 1200px;
+	height: 380px;
+	background: #24262B;
+	margin-top: 72px;
+	display: flex;
+	flex-direction:row;
+}
+
+.product-center{
+	margin-left: 153px;
+	width: 467px;
+}
+
+.product-center-name{
+	width: 96px;
+	margin-top: 78px;
+	height: 33px;
+}
+
+.product-center-name>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #919191;
+	text-align: center;
+	line-height: 33px;
+	letter-spacing: 0;
+}
+
+.product-center-list1{
+	margin-top: 10px;
+}
+
+.product-center-list2{
+	margin-top: 6px;
+}
+
+.product-center-list3{
+	margin-top: 5.5px;
+}
+
+.product-center-list4{
+	margin-top: 6.8px;
+}
+
+.product-center-list5{
+	margin-top: 6.7px;
+}
+
+
+.product-center-list1>span,.product-center-list2>span,.product-center-list3>span,.product-center-list4>span,.product-center-list5>span{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #919191;
+	text-align: center;
+	line-height: 17px;
+	letter-spacing: 0;
+}
+
+.logo{
+	margin-top: 93px;
+	margin-left: 236px;
+}
+
+.hotline{
+  width: 678px;
+}
+
+.hotline-border{
+  opacity: 0.39;
+  border: 1px solid #979797;
+  border-top: none;
+  border-bottom: none;
+  height: 68px;
+}
+.hotline-name{
+	width: 144px;
+  height: 33px;
+  margin-left: 267px;
+  margin-top: 18px;
+}
+
+.hotline-name>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #919191;
+	text-align: center;
+	line-height: 33px;
+	letter-spacing: 0;
+}
+
+.hotline-telephone{
+	margin-left: 181px;
+	width: 316px;
+	height: 56px;
+}
+
+.hotline-telephone>span{
+	font-family: PingFangSC-Regular;
+	font-size: 40px;
+	color: #919191;
+	line-height: 56px;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.company-information{
+  width: 395px;
+  height: 37px;
+  margin-top: 51px;
+  margin-left: 144px;
+}
+
+.company-information>p{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #919191;
+  text-align: center;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+
+.contact-us{
+  margin-left: 336px;
+  margin-top: 78px;
+}
+
+.contact-us-name{
+  width: 96px;
+  height: 33px;
+}
+
+.contact-us-name>span{
+  font-family: PingFangSC-Regular;
+  font-size: 24px;
+  color: #919191;
+	line-height: 33px;
+	letter-spacing: 0;
+  text-align: center;
+}
+
+.contact-us-name-item1,.contact-us-name-item2,.contact-us-name-item3,.contact-us-name-item4{
+  margin-top: 16px;
+}
+
+.contact-us-name-item1>span,.contact-us-name-item2>span,.contact-us-name-item3>span,.contact-us-name-item4>span{
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #919191;
+	line-height: 17px;
+	letter-spacing: 0;
+  text-align: center;
+}

@@ -1,0 +1,434 @@
+/* reset */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* main styling */
+
+html,body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+h1,h2,h3{
+	padding-bottom: 20px;
+}
+
+/* utility classes */
+.container{
+	width: 1008px;
+	float: left;
+	margin-left: 405px;
+}
+
+
+.container ul li a {
+	opacity: 0.5;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #101117;
+	line-height: 25px;
+	margin-left: 70px;
+}
+
+.header-logo{
+	float: left;
+}
+/* navbar */
+#navbar{
+	width: 1620px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding-top: 28px;
+	margin-left: 151px;
+	color: #fff;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+}
+#navbar a{
+	color: #B5B6B8;
+}
+#navbar h1{
+	float: left;
+	padding-top: 20px;
+}
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+#navbar ul li{
+	float: left;
+}
+
+#navbar ul li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#navbar ul li a:hover{
+	background: #fff;
+	color: #151925;
+}
+
+/* main-content */
+.main-content{
+	width: 1620px;
+	height: auto;
+	margin-left: 151px;
+	background: #fff;
+}
+
+.banner{
+	background:url('../images/banner_about_us.png') no-repeat center center/cover;
+	width: 1620px;
+	height:791px;
+	opacity: 0.86;
+	margin-top: 100px;
+}
+
+.brief-introduction{
+	width: 192px;
+	height: 67px;
+	margin-left: 714px;
+	margin-top: 53px;
+}
+
+.brief-introduction>span{
+	font-family: PingFangSC-Medium;
+	font-size: 48px;
+	letter-spacing: 0;
+	line-height: 67px;
+	color: #1A3C7B;
+}
+
+.company-name{
+	width: 288px;
+	height: 33px;
+}
+
+.company-name>span{
+	font-family: PingFangSC-Medium;
+	font-size: 24px;
+	color: #676767;
+	letter-spacing: 0;
+	line-height: 33px;
+}
+
+.underline{
+	margin-top: 17px;
+	width: 121px;
+	height: 6px;
+	background: #000;
+}
+
+.company-history{
+	margin-top: 55px;
+}
+
+.company-history>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #676767;
+	line-height: 40px;
+}
+
+.company-vision,.company-mission,.company-core-values{
+	font-family: PingFangSC-Medium;
+	font-size: 24px;
+	color: #676767;
+	line-height: 33px;
+}
+
+.company-vision{
+	margin-top: 40px;
+}
+
+.company-hope,.company-mission,.company-core-values{
+	margin-top: 20px;
+}
+
+.technical-strength{
+	width: 1620px;
+	height: 868px;
+	background:url('../images/img_technical_strength.png') no-repeat center center/cover;
+	margin-top: 223px;
+}
+
+.technical-strength-name{
+	position: relative;
+	top: 52px;
+	margin-left: 713px;
+	width: 192px;
+	height: 67px;
+}
+
+.technical-strength-name>span{
+	font-family: PingFangSC-Medium;
+	font-size: 48px;
+	color: #FFFFFF;
+	line-height: 67px;
+}
+
+.technical-strength-item1{
+	margin-left: 551px;
+	margin-top: 97px;
+	height: 292px;
+	width: 915px;
+}
+
+.technical-strength-item1>p,.technical-strength-item1>span,.technical-strength-item2>span,.technical-strength-item2>p{
+	width: 915px;
+	opacity: 0.6;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 40px;
+}
+
+.technical-strength-item2{
+	margin-top: 62px;
+	margin-left: 148px;
+}
+
+.company-honor{
+	margin-top: 91px;
+}
+
+.company-honor-name{
+	width: 192px;
+	height: 67px;
+	margin-top: 92px;
+	margin-left: 713px;
+}
+
+.company-honor-name>span{
+	font-family: PingFangSC-Medium;
+	font-size: 48px;
+	color: #000000;
+	line-height: 67px;
+}
+
+.company-honor-info{
+	margin-top: 21px;
+	margin-left: 149px;
+	height: 194px;
+}
+
+.company-honor-info>span,.company-honor-info>p{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #676767;
+	line-height: 40px;
+}
+
+.company-honor-picture{
+	width: 1321px;
+	height: 1012px;
+	margin-left: 149px;
+}
+
+.company-address{
+	width: 1620px;
+	height: 400px;
+}
+
+.company-address-detail{
+	position: relative;
+	top: 54px;
+	width: 1321px;
+	height: 346px;
+	margin-left: 148px;
+}
+
+.company-address-detail>p,.company-address-detail-format>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #676767;
+	line-height: 40px;
+}
+
+.company-address-detail-format{
+	margin-top: 50px;
+}
+
+.code{
+	float: right;
+}
+
+.code-word{
+	margin-top: -10px;
+	margin-left: 10px;
+}
+
+.code-word>span{
+	font-family: PingFangSC-Regular;
+	font-size: 15px;
+	letter-spacing: 8px;
+	color: #231916;
+}
+
+/* main-footer */
+
+#main-footer{
+	min-width: 1200px;
+	height: 380px;
+	background: #24262B;
+	display: flex;
+	flex-direction:row;
+}
+
+.product-center{
+	margin-left: 153px;
+	width: 467px;
+}
+
+.product-center-name{
+	width: 96px;
+	margin-top: 78px;
+	height: 33px;
+}
+
+.product-center-name>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #919191;
+	text-align: center;
+	line-height: 33px;
+	letter-spacing: 0;
+}
+
+.product-center-list1{
+	margin-top: 10px;
+}
+
+.product-center-list2{
+	margin-top: 6px;
+}
+
+.product-center-list3{
+	margin-top: 5.5px;
+}
+
+.product-center-list4{
+	margin-top: 6.8px;
+}
+
+.product-center-list5{
+	margin-top: 6.7px;
+}
+
+
+.product-center-list1>span,.product-center-list2>span,.product-center-list3>span,.product-center-list4>span,.product-center-list5>span{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #919191;
+	text-align: center;
+	line-height: 17px;
+	letter-spacing: 0;
+}
+
+.logo{
+	margin-top: 93px;
+	margin-left: 236px;
+}
+
+.hotline{
+  width: 678px;
+}
+
+.hotline-border{
+  opacity: 0.39;
+  border: 1px solid #979797;
+  border-top: none;
+  border-bottom: none;
+  height: 68px;
+}
+.hotline-name{
+	width: 144px;
+  height: 33px;
+  margin-left: 267px;
+  margin-top: 18px;
+}
+
+.hotline-name>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #919191;
+	text-align: center;
+	line-height: 33px;
+	letter-spacing: 0;
+}
+
+.hotline-telephone{
+	margin-left: 181px;
+	width: 316px;
+	height: 56px;
+}
+
+.hotline-telephone>span{
+	font-family: PingFangSC-Regular;
+	font-size: 40px;
+	color: #919191;
+	line-height: 56px;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.company-information{
+  width: 395px;
+  height: 37px;
+  margin-top: 51px;
+  margin-left: 144px;
+}
+
+.company-information>p{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #919191;
+  text-align: center;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+
+.contact-us{
+  margin-left: 336px;
+  margin-top: 78px;
+}
+
+.contact-us-name{
+  width: 96px;
+  height: 33px;
+}
+
+.contact-us-name>span{
+  font-family: PingFangSC-Regular;
+  font-size: 24px;
+  color: #919191;
+	line-height: 33px;
+	letter-spacing: 0;
+  text-align: center;
+}
+
+.contact-us-name-item1,.contact-us-name-item2,.contact-us-name-item3,.contact-us-name-item4{
+  margin-top: 16px;
+}
+
+.contact-us-name-item1>span,.contact-us-name-item2>span,.contact-us-name-item3>span,.contact-us-name-item4>span{
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #919191;
+	line-height: 17px;
+	letter-spacing: 0;
+  text-align: center;
+}

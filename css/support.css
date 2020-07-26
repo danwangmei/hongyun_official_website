@@ -1,0 +1,476 @@
+/* reset */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* main styling */
+
+html,body{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+h1,h2,h3{
+	padding-bottom: 20px;
+}
+
+/* utility classes */
+.container{
+	width: 1008px;
+	float: left;
+	margin-left: 405px;
+}
+
+
+.container ul li a {
+	opacity: 0.5;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #101117;
+	line-height: 25px;
+	margin-left: 70px;
+}
+
+.header-logo{
+	float: left;
+}
+/* navbar */
+#navbar{
+	width: 1620px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding-top: 28px;
+	color: #fff;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 151px;
+}
+#navbar a{
+	color: #B5B6B8;
+}
+#navbar h1{
+	float: left;
+	padding-top: 20px;
+}
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+#navbar ul li{
+	float: left;
+}
+
+#navbar ul li a{
+	display: block;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#navbar ul li a:hover{
+	background: #fff;
+	color: #151925;
+}
+
+/* main-content */
+.main-content{
+	width: 1620px;
+	height: auto;
+	margin-left: 151px;
+	background: #fff;
+}
+
+.banner-service01{
+	width: 1620px;
+	height: 790px;
+	margin-top: 100px;
+	background:url('../images/banner_service01.png') no-repeat center center/cover;
+}
+
+.banner-service02{
+	display: flex;
+	flex-direction:row;
+}
+
+.banner-service02-picture{
+	width: 790px;
+	height: 702px;
+	margin-top: 38px;
+}
+
+.banner-service02-info{
+	width: 1019px;
+	height: 837px;
+	background: #1A3C7B;
+	margin-top: -97px;
+	margin-left: -189px;
+}
+
+.blank-line{
+	width: 147px;
+	height: 6px;
+	background: #FFFFFF;
+	margin-top: 88px;
+	margin-left: 47px;
+}
+
+.banner-service-words{
+	width: 956px;
+	height: 43px;
+	margin-left: 47px;
+	margin-top: 129px;
+}
+
+.banner-service-words>p{
+	opacity: 0.6;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 48px;
+}
+
+.hongyun-service-name{
+	width: 1620px;
+	height: 246px;
+	background: #24262B;
+}
+
+.hongyun-service-words{
+	position: relative;
+	top: 94px;
+	left: -457px;
+}
+
+.hongyun-service-words>p{
+	font-family: PingFangSC-Semibold;
+	font-size: 48px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 67px;
+}
+
+.banner-service-technological-process{
+	width: 1620px;
+	height: 980px;
+}
+
+.black-background{
+	width: 1620px;
+	height: 104px;
+	background: #24262B;
+}
+
+.add-terminal-picture{
+	width: 573px;
+	height: 1093px;
+	margin-top: 100px;
+	margin-left: 938px;
+}
+
+.add-terminal-words{
+	position: absolute;
+	display: flex;
+	flex-direction:row;
+}
+
+.add-terminal-words-left{
+	width: 691px;
+	height: 843px;
+}
+
+.add-terminal-words-left-names{
+	margin-top: 88px;
+	width: 480px;
+	height: 67px;
+}
+
+.add-terminal-words-left-names>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 48px;
+	color: #1A3C7B;
+	text-align: center;
+	line-height: 67px;
+}
+
+.blue-bar{
+	margin-top: 11px;
+	width: 147px;
+	height: 6px;
+	background: #1A3C7B;
+}
+
+.add-terminal-words-left-detail{
+	margin-top: 54px;
+	width: 640px;
+	height: 165px;
+}
+
+.add-terminal-words-left-detail>p{
+	opacity: 0.6;
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #000000;
+	line-height: 33px;
+}
+
+.add-terminal-words-right{
+	width: 929px;
+	height: 843px;
+	display: flex;
+	flex-direction:row;
+}
+
+.mobile-phone-system{
+	margin-top: 69px;
+	display: flex;
+	flex-direction:row;
+	width: 550px;
+}
+
+.mobile-phone-system-ios,.mobile-phone-system-android{
+	width: 240px;
+	height: 80px;
+	background: #1A3C7B;
+	font-family: PingFangSC-Regular;
+	font-size: 36px;
+	color: #FFFFFF;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.mobile-phone-system-android{
+	margin-left: 70px;
+	padding-left: 55px;
+}
+
+.mobile-phone-system-ios{
+	padding-left: 81px;
+}
+
+.add-terminal-words-left,.add-terminal-words-right{
+	margin-top: 225px;
+}
+
+.add-terminal-left-blue-background{
+	width: 247px;
+	height: 843px;
+	background: #1A3C7B;
+}
+
+.add-terminal-right-blue-background{
+	width: 109px;
+	height: 843px;
+	background: #1A3C7B;
+	margin-left: 537px;
+}
+
+.service-centre{
+	width: 1620px;
+	height: 680px;
+	margin-top: 64px;
+	margin-bottom: 90px;
+	background:url('../images/img_service03.png') no-repeat center center/cover;
+}
+
+.service-centre-names{
+	position: relative;
+	top: 123px;
+	margin-left: 667px;
+}
+
+.service-centre-names>span{
+	font-family: PingFangSC-Semibold;
+	font-size: 48px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 67px;
+}
+
+.white-bar{
+	position: relative;
+	top: 134px;
+	margin-left: 741px;
+	width: 143px;
+	height: 6px;
+	background: #fff;
+}
+
+.service-centre-words{
+	margin-top: 174px;
+	margin-left: 279px;
+	width: 1049px;
+	height: 80px;
+}
+
+.service-centre-words>span{
+	opacity: 0.6;
+	font-family: PingFangSC-Regular;
+	font-size: 28px;
+	color: #FFFFFF;
+}
+
+/* main-foot */
+
+#main-footer{
+	min-width: 1200px;
+	height: 380px;
+	background: #24262B;
+	margin-top: 72px;
+	display: flex;
+	flex-direction:row;
+}
+
+.product-center{
+	margin-left: 153px;
+	width: 467px;
+}
+
+.product-center-name{
+	width: 96px;
+	margin-top: 78px;
+	height: 33px;
+}
+
+.product-center-name>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #919191;
+	text-align: center;
+	line-height: 33px;
+	letter-spacing: 0;
+}
+
+.product-center-list1{
+	margin-top: 10px;
+}
+
+.product-center-list2{
+	margin-top: 6px;
+}
+
+.product-center-list3{
+	margin-top: 5.5px;
+}
+
+.product-center-list4{
+	margin-top: 6.8px;
+}
+
+.product-center-list5{
+	margin-top: 6.7px;
+}
+
+
+.product-center-list1>span,.product-center-list2>span,.product-center-list3>span,.product-center-list4>span,.product-center-list5>span{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #919191;
+	text-align: center;
+	line-height: 17px;
+	letter-spacing: 0;
+}
+
+.logo{
+	margin-top: 93px;
+	margin-left: 236px;
+}
+
+.hotline{
+  width: 678px;
+}
+
+.hotline-border{
+  opacity: 0.39;
+  border: 1px solid #979797;
+  border-top: none;
+  border-bottom: none;
+  height: 68px;
+}
+.hotline-name{
+	width: 144px;
+  height: 33px;
+  margin-left: 267px;
+  margin-top: 18px;
+}
+
+.hotline-name>span{
+	font-family: PingFangSC-Regular;
+	font-size: 24px;
+	color: #919191;
+	text-align: center;
+	line-height: 33px;
+	letter-spacing: 0;
+}
+
+.hotline-telephone{
+	margin-left: 181px;
+	width: 316px;
+	height: 56px;
+}
+
+.hotline-telephone>span{
+	font-family: PingFangSC-Regular;
+	font-size: 40px;
+	color: #919191;
+	line-height: 56px;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.company-information{
+  width: 395px;
+  height: 37px;
+  margin-top: 51px;
+  margin-left: 144px;
+}
+
+.company-information>p{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #919191;
+  text-align: center;
+  line-height: 17px;
+  letter-spacing: 0;
+}
+
+.contact-us{
+  margin-left: 336px;
+  margin-top: 78px;
+}
+
+.contact-us-name{
+  width: 96px;
+  height: 33px;
+}
+
+.contact-us-name>span{
+  font-family: PingFangSC-Regular;
+  font-size: 24px;
+  color: #919191;
+	line-height: 33px;
+	letter-spacing: 0;
+  text-align: center;
+}
+
+.contact-us-name-item1,.contact-us-name-item2,.contact-us-name-item3,.contact-us-name-item4{
+  margin-top: 16px;
+}
+
+.contact-us-name-item1>span,.contact-us-name-item2>span,.contact-us-name-item3>span,.contact-us-name-item4>span{
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #919191;
+	line-height: 17px;
+	letter-spacing: 0;
+  text-align: center;
+}
