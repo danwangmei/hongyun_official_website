@@ -299,9 +299,10 @@
 
 
 table{
-	width: 1620px;
+	width: 90%;
 	height: 491px;
 	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 table tr td{

@@ -1,46 +1,32 @@
 /* main-content */ 
 .main-content{
-	width: 1620px;
+	width: 90%;
 	height: auto;
 	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
+
 .banner-product{
-	width: 1620px;
 	height: 61px;
 	background: #1A3C7B;
 	display: flex;
 	flex-direction: row;
 }
 
-.banner-product-item1{
-	width: 85px;
-	margin-left: 797px;
-	margin-top: 22px;
+.banner-product>div{
+	width: 50%;
 }
 
-.banner-product-item2{
-	width: 85px;
-	margin-left: 94.8px;
+.banner-product-right{
+	display: flex;
+	flex-direction: row;
 	margin-top: 22px;
+	height: 61px;
 }
 
-.banner-product-item3{
-	width: 48px;
-	margin-left: 94.7px;
-	margin-top: 22px;
-}
-
-.banner-product-item4{
-	width: 32px;
-	margin-left: 94.8px;
-	margin-top: 22px;
-}
-
-.banner-product-item5{
-	width: 32px;
-	margin-left: 94.8px;
-	margin-top: 22px;
+.banner-product-right>div{
+	width: 20%;
 }
 
 .banner-product-item1>span,.banner-product-item2>span,.banner-product-item4>span,.banner-product-item5>span{
@@ -59,7 +45,7 @@
 }
 
 .banner-product-introduce{
-	width: 1620px;
+	width: 90%;
 	height: 730px;
 	background: #F1F1F1;
 	display: flex;
@@ -213,15 +199,16 @@
 }
 
 .banner-product-parameter{
-	width: 1620px;
+	width: 90%;
 	height: 810px;
 	background: #1A3C7B;
+	margin: 0 auto;
 }
 
 .banner-product-parameter-title{
 	position: relative;
 	top: 56px;
-	margin-left: 140px;
+	margin-left: 5%;
 	height: 50px;
 }
 
@@ -234,24 +221,25 @@
 }
 
 .banner-product-parameter-names{
-	width: 1340px;
+	width: 90%;
 	height: 50px;
 	display: flex;
 	flex-direction: row;
-	margin-top: 128px;
-	margin-left: 140px;
+	position: relative;
+	top: 128px;
+	margin:0 auto;
 }
 
 .banner-product-parameter-names-1{
-	width: 512px;
+	width: 32%;
 	height: 25px;
 	opacity: 0.5;
 	border-bottom: 1px solid #FFFFFF;
 }
 
 .banner-product-parameter-names-2{
-	width: 152px;
-	margin-left: 81px;
+	width: 36%;
+	text-align: center;
 }
 
 .banner-product-parameter-names-2>p{
@@ -262,22 +250,23 @@
 }
 
 .banner-product-parameter-names-3{
-	width: 512px;
+	width: 32%;
 	height: 25px;
 	opacity: 0.5;
 	border-bottom: 1px solid #FFFFFF;
-	margin-left: 81px;
 }
 
 .banner-product-parameter-content{
-	margin-top: 80px;
-	margin-left: 140px;
+	position: relative;
+	top: 195px;
+	margin:0 auto;
 }
 
 table{
-	width: 1338px;
+	width: 90%;
 	height: 369px;
 	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 table tr td{
