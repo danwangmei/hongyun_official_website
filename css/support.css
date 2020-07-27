@@ -1,15 +1,13 @@
 /* main-content */
 .main-content{
-	width: 1620px;
+	width: 90%; 
 	height: auto;
-	margin-left: 151px;
+	margin: 0 auto;
 	background: #fff;
 }
 
 .banner-service01{
-	width: 1620px;
 	height: 790px;
-	/* margin-top: 100px; */
 	background:url('../images/banner_service01.png') no-repeat center center/cover;
 }
 
@@ -19,17 +17,17 @@
 }
 
 .banner-service02-picture{
-	width: 790px;
+	width: 50%;
 	height: 702px;
 	margin-top: 38px;
 }
 
 .banner-service02-info{
-	width: 1019px;
+	width: 62%;
 	height: 837px;
 	background: #1A3C7B;
 	margin-top: -97px;
-	margin-left: -189px;
+	margin-left: -11%;
 }
 
 .blank-line{
@@ -56,7 +54,6 @@
 }
 
 .hongyun-service-name{
-	width: 1620px;
 	height: 246px;
 	background: #24262B;
 }
@@ -64,7 +61,7 @@
 .hongyun-service-words{
 	position: relative;
 	top: 94px;
-	left: -457px;
+	left: -28%;
 }
 
 .hongyun-service-words>p{
@@ -76,37 +73,34 @@
 }
 
 .banner-service-technological-process{
-	width: 1620px;
 	height: 980px;
 }
 
 .black-background{
-	width: 1620px;
 	height: 104px;
 	background: #24262B;
 }
 
 .add-terminal-picture{
-	width: 573px;
+	position: relative;
+	top: -125px;
+	left: 26%;
 	height: 1093px;
-	margin-top: 100px;
-	margin-left: 938px;
 }
 
 .add-terminal-words{
-	position: absolute;
+	height: 1193px;
 	display: flex;
 	flex-direction:row;
 }
 
 .add-terminal-words-left{
-	width: 691px;
+	width: 40%;
 	height: 843px;
 }
 
 .add-terminal-words-left-names{
 	margin-top: 88px;
-	width: 480px;
 	height: 67px;
 }
 
@@ -127,7 +121,7 @@
 
 .add-terminal-words-left-detail{
 	margin-top: 54px;
-	width: 640px;
+	width: 75%;
 	height: 165px;
 }
 
@@ -140,7 +134,7 @@
 }
 
 .add-terminal-words-right{
-	width: 929px;
+	width: 60%;
 	height: 843px;
 	display: flex;
 	flex-direction:row;
@@ -150,11 +144,11 @@
 	margin-top: 69px;
 	display: flex;
 	flex-direction:row;
-	width: 550px;
+	width: 75%;
 }
 
 .mobile-phone-system-ios,.mobile-phone-system-android{
-	width: 240px;
+	width: 50%;
 	height: 80px;
 	background: #1A3C7B;
 	font-family: PingFangSC-Regular;
@@ -166,21 +160,18 @@
 }
 
 .mobile-phone-system-android{
-	margin-left: 70px;
-	padding-left: 55px;
+	margin-left: 16%;
+	padding-left: 7%;
 }
 
 .mobile-phone-system-ios{
-	padding-left: 81px;
+	padding-left: 15%;
 }
 
 .add-terminal-words-left,.add-terminal-words-right{
 	margin-top: 225px;
 }
-
-.add-terminal-left-blue-background{
-	width: 247px;
-	height: 843px;
+.add-terminal-words-right{
 	background: #1A3C7B;
 }
 
@@ -192,7 +183,6 @@
 }
 
 .service-centre{
-	width: 1620px;
 	height: 680px;
 	margin-top: 64px;
 	margin-bottom: 90px;
@@ -200,9 +190,10 @@
 }
 
 .service-centre-names{
+	width: 288px;
 	position: relative;
 	top: 123px;
-	margin-left: 667px;
+	margin: 0 auto;
 }
 
 .service-centre-names>span{
@@ -216,15 +207,15 @@
 .white-bar{
 	position: relative;
 	top: 134px;
-	margin-left: 741px;
 	width: 143px;
 	height: 6px;
 	background: #fff;
+	margin: 0 auto;
 }
 
 .service-centre-words{
+	margin: 0 auto;
 	margin-top: 174px;
-	margin-left: 279px;
 	width: 1049px;
 	height: 80px;
 }
