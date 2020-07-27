@@ -70,6 +70,7 @@
 .product-meta-series-detail{
 	display: flex;
 	flex-direction: row;
+	background: #F5F5F5;
 }
 
 .product-meta-series-left{
@@ -131,11 +132,13 @@
 .product-series-detail{
 	display: flex;
 	flex-direction: row;
+	background: #F5F5F5;
 }
 
 .product-series-left{
 	width: 50%;
 	margin-top: 139px;
+	margin-left: 10%;
 }
 
 .product-series-left-content{

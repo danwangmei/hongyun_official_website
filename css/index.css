@@ -118,8 +118,14 @@
 	margin-top: 106px;
 }
 
-.series-left,.series-right{
+.series-left{
 	width: 50%;
+	background: #F1F1F1;
+}
+
+.series-right{
+	width: 50%;
+	background: #EAEAEA;
 }
 
 .meta-series-name{

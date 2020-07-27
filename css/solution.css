@@ -123,7 +123,7 @@
 }
 
 .time-picture-list{
-	width: 90%;
+	width: 82.5%;
 	height: 143px;
 	opacity: 0.68;
 	background: #FFFFFF;
@@ -133,92 +133,30 @@
 }
 
 .time-picture-list-border{
-	width: 1117px;
+	width: 83%;
 	height: 60.5px;
-	margin-left: 111px;
+	margin: 0 auto;
 	border-bottom: 1px dashed #1A3C7B;
-	position: absolute;
 	z-index: -1;
 }
 
 .time-picture-list-picture{
+	width: 76%;
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-top: -1.7%;
 }
 
-.time-picture-list-item1{
-	width: 210px;
-	height: 143px;
+.time-picture-list-picture>div{
+	float: left;
+	width: 16.7%;
+	height: 77px;
+	text-align: center;
 }
 
-.time-picture-list-item2,.time-picture-list-item3.time-picture-list-item5,.time-picture-list-item6{
-	width: 197.2px;
-	height: 143px;
-}
-
-.time-picture-list-item4{
-	width: 198.2px;
-	height: 143px;
-}
-
-.time-picture-list-item1-clock{
-	margin-top: 38px;
-	margin-left: 158px;
-}
-
-.time-picture-list-item2-clock{
-	margin-top: 38px;
-	margin-left: 151px;
-}
-
-.time-picture-list-item3-clock{
-	margin-top: 38px;
-	margin-left: 144px;
-}
-
-.time-picture-list-item4-clock,.time-picture-list-item5-clock{
-	margin-top: 38px;
-	margin-left: 150px;
-}
-
-.time-picture-list-item6-clock{
-	margin-top: 38px;
-	margin-left: 146px;
-}
-
-.time-picture-list-item1-clock,.time-picture-list-item2-clock,.time-picture-list-item3-clock,.time-picture-list-item4-clock,.time-picture-list-item5-clock,.time-picture-list-item6-clock{
-	width: 46px;
-	height: 46px;
-	z-index: 1;
-}
-
-
-.time-picture-list-item1-number>span,.time-picture-list-item2-number>span,.time-picture-list-item3-number>span,.time-picture-list-item4-number>span,.time-picture-list-item5-number>span,.time-picture-list-item6-number>span{
-	opacity: 0.39;
-	font-family: PingFangSC-Regular;
-	font-size: 14px;
-	color: #0E0E0E;
-	line-height: 20px;
-	width: 59px;
-}
-
-.time-picture-list-item1-number,.time-picture-list-item2-number,.time-picture-list-item3-number,.time-picture-list-item4-number,.time-picture-list-item5-number,.time-picture-list-item6-number{
+.time-picture-list-number{
 	margin-top: 11px;
-}
-
-.time-picture-list-item1-number{
-	margin-left: 151px;
-	width: 59px;
-}
-
-.time-picture-list-item4-number{
-	margin-left: 139.2px;
-	width: 59px;
-}
-
-.time-picture-list-item2-number,.time-picture-list-item3-number,.time-picture-list-item5-number,.time-picture-list-item6-number{
-	margin-left: 138.2px;
-	width: 59px;
 }
 
 .hongyun-intelligent-products{

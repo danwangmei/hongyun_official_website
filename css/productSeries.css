@@ -27,7 +27,7 @@
 	margin-top: 22px;
 }
 
-.banner-product-item3>span,.banner-product-item1>span,.banner-product-item4>span,.banner-product-item5>span{
+.banner-product-item1 span,.banner-product-item3 span,.banner-product-item2 span,.banner-product-item4 span,.banner-product-item5 span{
 	opacity: 0.5;
 	font-family: PingFangSC-Regular;
 	font-size: 16px;
@@ -35,7 +35,7 @@
 	line-height: 22px;
 }
 
-.banner-product-item2>span{
+a:hover{
 	font-family: PingFangSC-Regular;
 	font-size: 16px;
 	color: #FFFFFF;

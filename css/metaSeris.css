@@ -27,19 +27,20 @@
 	margin-top: 22px;
 }
 
-.banner-product-item3>span,.banner-product-item2>span,.banner-product-item4>span,.banner-product-item5>span{
-	opacity: 0.5;
+.banner-product-item1 span,.banner-product-item3 span,.banner-product-item2 span,.banner-product-item4 span,.banner-product-item5 span{
 	font-family: PingFangSC-Regular;
 	font-size: 16px;
 	color: #FFFFFF;
 	line-height: 22px;
+	opacity: 0.5;
 }
 
-.banner-product-item1>span{
+a:hover {
 	font-family: PingFangSC-Regular;
 	font-size: 16px;
 	color: #FFFFFF;
-	line-height: 22px;
+	text-decoration:none;
+	opacity: 1;
 }
 
 .banner-product-picture1{
@@ -126,6 +127,7 @@
 	height: 942px;
 	background:url('../images/img_dial.png') no-repeat center center/cover;
 	margin:0 auto;
+	margin-top: -48px;
 }
 
 .banner-product-picture5-item1{
