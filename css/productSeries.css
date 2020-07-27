@@ -1,45 +1,29 @@
 /* main-content */ 
 .main-content{
-	width: 1620px;
+	width: 90%;
 	height: auto;
 	margin: 0 auto;
 }
 
 .banner-product{
-	width: 1620px;
 	height: 61px;
 	background: #1A3C7B;
 	display: flex;
 	flex-direction: row;
+
 }
 
-.banner-product-item1{
-	width: 85px;
-	margin-left: 797px;
-	margin-top: 22px;
+.banner-product>div{
+	width: 50%;
 }
 
-.banner-product-item2{
-	width: 85px;
-	margin-left: 94.8px;
-	margin-top: 22px;
+.banner-product-right{
+	display: flex;
+	flex-direction: row;
 }
 
-.banner-product-item3{
-	width: 48px;
-	margin-left: 94.7px;
-	margin-top: 22px;
-}
-
-.banner-product-item4{
-	width: 32px;
-	margin-left: 94.8px;
-	margin-top: 22px;
-}
-
-.banner-product-item5{
-	width: 32px;
-	margin-left: 94.8px;
+.banner-product-right>div{
+	width: 20%;
 	margin-top: 22px;
 }
 
@@ -59,7 +43,6 @@
 }
 
 .banner-product-picture1{
-	width: 1621px;
 	height: 791px;
 }
 
@@ -68,7 +51,7 @@
 	display: flex;
 	flex-direction: row;
 	margin-top: 72px;
-	margin-left: 451px;
+	margin: 0 auto;
 }
 
 .banner-product-picture2-word>p{
@@ -79,16 +62,18 @@
 }
 
 .banner-product-picture2{
-	width: 1620px;
+	width: 90%;
 	height: 1123px;
+	margin: 0 auto;
 	margin-top: 25px;
 }
 
 .banner-product-picture3-word{
 	width: 360px;
 	height: 67px;
-	margin-top: 58px;
-	margin-left: 633px;
+	position: relative;
+	top: 58px;
+	margin:0 auto;
 }
 
 .banner-product-picture3-word>p{
@@ -101,8 +86,9 @@
 .banner-product-picture3-content{
 	width: 728px;
 	height: 66px;
-	margin-top: 27px;
-	margin-left: 449px;
+	position: relative;
+	top: 68px;
+	margin: 0 auto;
 }
 
 .banner-product-picture3-content>p{
@@ -114,14 +100,12 @@
 }
 
 .banner-product-picture3{
-	width: 1097px;
 	height: 778px;
-	margin-top: 58px;
-	margin-left: 292px;
+	margin: 130px auto 0 18%;
+	margin-top: 130px;
 }
 
 .banner-product-picture4{
-	width: 1620px;
 	height: 980px;
 	margin-top: 24px;
 	background:url('../images/img_main_function02.png') no-repeat center center/cover;
@@ -132,7 +116,7 @@
 	height: 67px;
 	position: relative;
 	top: 48px;
-	margin-left: 715px;
+	margin:0 auto;
 }
 
 .banner-product-picture4-title>p{
@@ -145,8 +129,9 @@
 .banner-product-picture4-content{
 	width: 891px;
 	height: 66px;
-	margin-top: 92px;
-	margin-left: 371.5px;
+	position: relative;
+	top: 92px;
+	margin: 0 auto;
 }
 
 .banner-product-picture4-content>p{
@@ -159,7 +144,6 @@
 }
 
 .banner-product-picture5{
-	width: 1620px;
 	height: 1057px;
 	background:url('../images/img_reproduction01.png') no-repeat center center/cover;
 }
@@ -167,21 +151,21 @@
 .banner-product-picture5-inside{
 	position: relative;
 	top: 173px;
-	width: 1313px;
+	width: 80%;
 	height: 698px;
 	position: relative;
 	top: 173px;
-	margin-left: 155px;
+	margin: 0 auto;
 	opacity: 0.9;
 	background: #FFFFFF;
 }
 
 .banner-product-picture5-inside-item1{
-	width: 700px;
+	width: 51%;
 	height: 67px;
 	position: relative;
 	top: 60px;
-	margin-left: 306.5px;
+	margin: 0 auto;
 }
 
 .banner-product-picture5-inside-item1>p{
@@ -192,63 +176,65 @@
 }
 
 .banner-product-picture5-inside-item2{
-	width: 127px;
+	width: 10%;
 	height: 6px;
-	margin-top: 73px;
-	margin-left: 603px;
+	position: relative;
+	top: 73px;
+	margin: 0 auto;
 	background: #183772;
 }
 
 .banner-product-picture5-inside-item3{
-	width: 554px;
+	width: 40%;
 	height: 351px;
-	margin-top: 48px;
-	margin-left: 377px;
+	position: relative;
+	top: 125px;
+	margin-top: 116px;
+	margin: 0 auto;
 }
 
 .banner-product-picture5-inside-item4{
-	width: 106px;
+	width: 8%;
 	height: 33px;
-	margin-top: 23px;
-	margin-left: 604px;
+	position: relative;
+	top: 145px;
+	margin: 0 auto;
 }
 
 .banner-product-picture5-outside{
-	width: 1313px;
+	width: 80%;
 	height: 6px;
 	background: #FFFFFF;
-	margin-top: 198px;
-	margin-left: 155px;
+	position: relative;
+	top: 200px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 }
 
 .banner-product-picture5-outside-1{
-	width: 508px;
+	width: 40%;
 	height: 6px;
 }
 
 .banner-product-picture5-outside-2{
-	width: 297px;
+	width: 20%;
 	height: 6px;
 	background: #1A3C7B;
 }
 
 
 .banner-product-picture6{
-	width: 1620px;
 	height: 980px;
 	background:url('../images/img_remote_control.png') no-repeat center center/cover;
 }
 
 .banner-product-picture7{
-	width: 1620px;
 	height: 860px;
 	background:url('../images/img_phone_app.png') no-repeat center center/cover;
 }
 
 .banner-product-parameter{
-	width: 1620px;
 	height: 67px;
   margin-top: 70px;
 	display: flex;
@@ -256,14 +242,15 @@
 }
 
 .banner-product-parameter-names-1{
-	width: 624px;
+	width: 40%;
 	height: 34px;
   border-bottom: 2px solid #979797;
 }
 
 .banner-product-parameter-names-2{
-	width: 192px;
-	margin-left: 88px;
+	width: 20%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .banner-product-parameter-names-2>p{
@@ -274,19 +261,19 @@
 }
 
 .banner-product-parameter-names-3{
-	width: 623px;
+	width: 40%;
   height: 34px;
   border-bottom: 2px solid #979797;
-	margin-left: 93px;
 }
 
 .banner-product-parameter-content{
 	margin-top: 69px;
+	margin-bottom: 94px;
 }
 
 
 table{
-	width: 1620px;
+	width: 100%;
 	height: 688px;
 	border-collapse: collapse;
 }
