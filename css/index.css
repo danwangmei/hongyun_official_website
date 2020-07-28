@@ -120,12 +120,10 @@
 
 .series-left{
 	width: 50%;
-	background: #F1F1F1;
 }
 
 .series-right{
 	width: 50%;
-	background: #EAEAEA;
 }
 
 .meta-series-name{
@@ -158,11 +156,13 @@
 
 .meta-series-picture{
 	margin-top: 27.3px;
+	background: #F1F1F1;
 }
 
 .product-series-picture{
 	margin-top: 27.3px;
 	margin-left: 104px;
+	background: #EAEAEA;
 }
 
 .suit{
