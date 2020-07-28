@@ -48,7 +48,6 @@
 }
 
 .actuators-item1{
-	width: 90%;
 	height: 557px;
 	display: flex;
 	flex-direction: row;
@@ -185,7 +184,6 @@
 
 
 .product-actuator-item2{
-	width: 90%;
 	height: 557px;
 	margin-top: 39px;
 	display: flex;
