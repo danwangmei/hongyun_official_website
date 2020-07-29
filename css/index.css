@@ -211,7 +211,7 @@
 
 .hotel{
 	width: 20%;
-	background:#1A3C7B;;
+	background:url('../images/building_high_hotel_lights.png') no-repeat center center/cover;
 }
 
 .hotel-guest-room{
